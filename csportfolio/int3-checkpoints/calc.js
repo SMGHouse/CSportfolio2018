@@ -17,5 +17,14 @@ var op = operator.value;
 if(op === "+"){
     display.innerHTML= number1 + number2;
 }
+else if(op === "-"){
+    display.innerHTML= number1 - number2;
+}
+else if(op ==="*"){
+    display.innerHTML= number1 * number2;
+}
+else if(op ==="/"){
+    display.innerHTML=number1 / number2;
+}
 
 });
