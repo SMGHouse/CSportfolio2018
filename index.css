@@ -1,0 +1,103 @@
+.firstbox > *{
+    display:inline-block;
+    
+}
+
+.firstbox {
+    border: 2px solid black;
+}
+
+.hc{
+    text-align:center;
+}
+
+body{
+    background-image:url(kirbybg.jpg);
+}
+
+.firstbox{
+    text-align:center;
+}
+
+.firstbox{
+    background-color:yellow;
+}
+    
+    
+    
+.hc{
+    background-color:yellow;
+}
+
+ .secondbox > *{
+    display:inline-block;
+    
+}
+
+.secondbox {
+    border: 2px solid black;
+}
+
+.secondbox{
+    text-align:center;
+}
+
+.secondbox{
+    background-color:yellow;
+}
+
+#navbar{
+    
+}
+
+#navbar a{
+    border: 2px solid black;
+    padding: 10px;
+    background-color:yellow;
+}
+
+#navbar a:hover{
+    background-color:pink;
+}
+
+#navbar li{
+    display:inline-block;
+}
+
+.groupie{
+    text-align:center;
+}
+
+.groupie{
+    border: 2px solid black;
+}
+
+.img-center{
+    text-align:center;
+}
+
+body{
+    text-align:center;
+}
+
+.thirdbox > *{
+    display:inline-block;
+    
+}
+
+.thirdbox {
+    border: 2px solid black;
+}
+
+.thirdbox{
+    text-align:center;
+}
+
+.thirdbox{
+    background-color:yellow;
+}
+
+.img-center{
+    border: 2px solid black;
+    padding: 10px;
+}

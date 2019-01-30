@@ -1,0 +1,73 @@
+body{
+    background-image:url(codebg.gif);
+}
+
+.h1{
+    background-color:black;
+}
+
+body{
+    color:lightgreen;
+}
+
+.h1{
+    text-align:center;
+}
+
+#dnavbar{
+    
+}
+
+#dnavbar a{
+    border: 2px solid black;
+    padding: 10px;
+    background-color:lightgreen;
+}
+
+#dnavbar a:hover{
+    background-color:pink;
+}
+
+#dnavbar li{
+    display:inline-block;
+}
+
+.divnavbar{
+    text-align:center;
+}
+
+.firstp > *{
+    display:inline-block;
+    
+}
+
+.firstp {
+    border: 2px solid black;
+}
+
+
+.firstp{
+    text-align:center;
+}
+
+.firstp{
+    background-color:black;
+}
+
+.secondp > *{
+    display:inline-block;
+    
+}
+
+.secondp {
+    border: 2px solid black;
+}
+
+
+.secondp{
+    text-align:center;
+}
+
+.secondp{
+    background-color:black;
+}

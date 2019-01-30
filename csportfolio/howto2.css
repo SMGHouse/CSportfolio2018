@@ -1,0 +1,35 @@
+#dnavbar a {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: yellow;
+}
+
+#dnavbar a:hover {
+    background-color: hotpink;
+}
+
+#dnavbar li {
+    display: inline-block;
+}
+
+.divnavbar {
+    text-align: center;
+}
+
+body {
+    background-image: url(kbg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.firstp > *{
+    display:inline-block;
+    
+}
+
+
+
+.firstp{
+    text-align:center;
+}
+

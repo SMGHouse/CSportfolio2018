@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="howto2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How The Code Works</title>
+</head>
+
+<body>
+
+    <div class="divnavbar" <ul id="dnavbar">
+        <li><a href="create2.html">What did I Create</a></li>
+        <li><a href="pwork2.html">How Does The Project Work?</a> </li>
+        <li><a href="cworks2.html">How The Code Works</a> </li>
+        <li><a href="choice2.html">My Choices</a></li>
+        <li><a href="understand2.html">Understanding Art And Programming</a></li>
+        <li><a href="time2.html">If I Had More Time?</a></li>
+        </ul>
+    </div>
+
+    <font color="white">
+        <font size="12">
+            <div class="tb">
+                <h1>How My Coding Works</h1>
+                <strong>
+<p>
+    Some specifics for the code that I have learned are how to make circles, loops, if statments/conditionals, and functions. I have also learned how to make
+    a webpage user interactive.
+    
+    <div class="firstp">
+        <p style="width:30%">
+            <font size="6">fill(0,0,0);<br> strokeweight(5);<br> stroke(225,225,225);<br> ellipse(20,20,20,20);</font><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p style="width:50%"> 
+            <font size="6"><strong> Ellipses </strong><br>
+            Ellipses are a basic code that you can use to make circles on your webpage. The first line in the code is color of the circle and the numbers in the 
+            parentheses are how you can code the color. The first number is for red, the second is green, and the thrid codes for blue. You can change 
+            those number to get any color and,(0,0,0) codes for the color black. For the second line of code, that is to control the size of the the outline
+            of the circle. The third color is to code for the color of the outlie. The numbers follow to same rules as the code on the first line, only the code,
+            (255,255,255) codes for white. The fourth line codes for the actual circle. The first number in the parentheses code for the x-axis where the
+            circle is positioned. The second number codes for the y-axis poisition of the circle. The third number is the width of the circle, and the fourth 
+            is the length of the circle.
+            </font>
+        </p>
+    </div>
+    
+</p>
+
+<div class="firstp">
+        <p style="width:30%">
+            <font size="6"> for (var i=0;i < width;i+=30) <br> for (var j=0;j< height;j+=30) <br> ellipse(i, j, size, size); </font><br><br><br><br><br><br><br><br>
+        <p style="width:50%"> 
+            <font size="6"><strong> Loops </strong><br>
+            The first line of code makes circles appear in a horizontal line. The first circle starts at the 0 position on the x-axis, and duplicates itself by 
+            30 units form 0 until it reaches the width of the webpage. The i is there to make a varible so that the x position of the circle will duplicate.
+            The second line of code is to make circles appear in a vertical line. The first 
+            circle starts at the 0 position on the y-axis, and duplicates itself by 30 units form 0 as well. The duplication stops when it reaches the 
+            length of the webpage. The j is also a vairble used to change the y poistion of the duplicated circles. The last line just codes for the circle 
+            and the i and j are there so that the loops can work on that specific circle.
+            </font>
+        </p>
+    </div>
+<div class="firstp">
+        <p style="width:30%">
+            <font size="6"> If (mouseY < 200){<br>
+	fill (255, 21, 0);<br>
+	stroke (255, 21, 0);<br>
+	strokeWeight (5);<br>
+}<br>
+else{<br>
+	fill (0, 97, 255);<br>
+	stroke (0, 97, 255);<br>
+	strokeWeight (5);<br>
+}
+ </font><br><br><br><br>
+        <p style="width:50%"> 
+            <font size="6"><strong> If Statements/Contionals </strong><br>
+           This is a pretty simple code. An if statement can make condions to your page and make different things happen. For this code, 
+           the first line codes for the condition for if the mouse is less that 200 on the y-axis. The next three lines code for a circle 
+           that is red and has a red outline with a thickness of 5. Together, the code says that if the mouse is less than
+           200 on the y-axis, then a red circle should appear. For the line with else, that codes for a blue circle with a blue outline with an outline
+           thickness of 5. With all the code together, if the mouse is less than 200 on the y-axis, a red circle will appear and if the mouse is not less
+           than 200, then a blue circle will appear.
+            </font>
+        </p>
+    </div>
+    
+    <div class="firstp">
+        <p style="width:30%">
+            <font size="6">  kirby = function(x, y) {<br>
+
+
+                fill(255, 181, 222);<br>
+                ellipse(x, y, 150, 150);<br>
+                stroke(0);<br>
+                fill(112, 23, 72);<br>
+                ellipse(x - 25, y - 20, 30, 50);<br>
+                ellipse(x + 20, y - 20, 30, 50);<br>
+                fill(249, 134, 198);<br>
+                ellipse(x - 50, y + 20, 20, 10);<br>
+                ellipse(x + 50, y + 20, 20, 10);<br>
+                fill(255);<br>
+                ellipse(x - 25, y - 30, 15, 25);<br>
+                ellipse(x + 20, y - 30, 15, 25);<br>
+            }; <br>
+            
+            mouseClicked = function() {<br>
+                kirby(mouseX, mouseY);<br>
+            }
+ </font>
+        <p style="width:50%"> 
+            <font size="6"><strong> Functions </strong><br>
+            A function is a set of statements that performs a task or calculates a value. 
+            To use a function, you must define it somewhere in the scope from which you wish to call it.
+            This function's name is the kirby function, which states that in the first line.
+            The code for ellipses in the kirby function are used to make that face that you see in the background.
+            Now that the kirby function has the task of making a kirby face.
+            For the mouseClicked function under the kirby function, that function is there to make the kirby function create a kirby face
+            in the x and y positions where you clicked your mouse. 
+            </font>
+        </p>
+    </div>
+    
+</strong>
+        </font>
+    </font>
+    </div>
+
+</body>
+
+</html>
